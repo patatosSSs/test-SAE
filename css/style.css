@@ -1,0 +1,126 @@
+html{
+    scroll-behavior: smooth;
+}
+
+/* FONT */
+@font-face{
+    font-family: anime;
+    src: url(../fonts/animeace2_reg.otf);
+}
+
+/* GLOBAL */
+body {
+    margin: 0;
+    background: linear-gradient(180deg,rgba(0, 4, 20, 1) 0%, rgba(9, 9, 121, 1) 64%, rgba(0, 212, 255, 1) 100%);
+    color: #1F2937;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 60px;
+}
+
+/* NAVBAR */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    position: fixed;
+    top: 0;
+    background: rgba(255, 255, 255, 0);
+    min-width: 95vw;
+    color: aliceblue;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 500;
+}
+
+/* HERO */
+.hero {
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    color: aliceblue;
+}
+
+.btn {
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: #4F46E5;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #6366F1;
+}
+
+/* PROJECTS */
+
+.projects {
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#projects .grid {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 40px;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+#projects .card {
+    width: 100%;
+    max-width: 300px;
+    min-width: 300px;  /* ✅ Taille des cards */
+    height: 160px;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    transition: transform .3s;
+}
+
+#projects .card:hover {
+    transform: scale(1.05);
+}
+
+.projects a{
+    min-width: 240px;
+    text-decoration: none;
+    color: #1F2937; 
+}
+
+h1,h2,h3,p,li,a{
+    font-family: anime;
+}
+h2{
+    color: aliceblue;
+}
