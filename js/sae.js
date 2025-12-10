@@ -7,3 +7,4 @@ titre.forEach(function(element)
     table = '<a href="pageSAE.html?sae='+element+'"><div class="gg">'+element +'<p>'+ SAE[element]["titre"]+'</div></a>   '
     document.querySelector(".lien").innerHTML += table
 });
+

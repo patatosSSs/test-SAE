@@ -28,3 +28,4 @@ ress.forEach(function(element)
     tabl = "<div>" + element +" "+ SAE[titre]["ressources"][element] + "</div>"
     
 });
+

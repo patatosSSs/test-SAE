@@ -1,4 +1,8 @@
-
+/* FONT */
+@font-face{
+    font-family: anime;
+    src: url(../fonts/animeace2_reg.otf);
+}
 /* GLOBAL */
 body {
     margin: 0;
@@ -6,6 +10,7 @@ body {
     background: linear-gradient(180deg,rgba(0, 4, 20, 1) 0%, rgba(9, 9, 121, 1) 64%, rgba(0, 212, 255, 1) 100%);
     color: #1F2937;
     height: 100vh;
+    font-family: anime;
 }
 /* NAVBAR */
 nav {
@@ -32,11 +37,6 @@ nav a {
     font-weight: 500;
 }
 
-.text{
-    text-align: center;
-    margin-bottom: 40px;
-}
-
 .acc ,.ress {
       width: 48%;
       background-color: #ffffff;
@@ -52,7 +52,13 @@ nav a {
     }
 
 .text {
-    margin-top:500px;
+    display: flex;
+    width: 70%;
+    gap: 20px;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 40px;
+    padding-top:200px;
     color: aliceblue;
     font-size: 30px;
 }
@@ -62,4 +68,22 @@ nav a {
 }
 .ress{
     margin-right: 30px;
+}
+
+.main{
+    justify-items: center;
+}
+
+.lien{
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.comp{
+    background-color: #ffffff;
+    color: #000414;
+    padding: 5px;
+    align-self: center;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
