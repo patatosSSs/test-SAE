@@ -29,7 +29,7 @@ nav {
     padding: 20px 40px;
     position: fixed;
     top: 0;
-    background: rgba(255, 255, 255, 0);
+    background: rgb(0, 0, 0,31%);
     min-width: 95vw;
     color: aliceblue;
     flex-wrap: wrap;

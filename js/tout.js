@@ -12,10 +12,10 @@ let AC = Object.keys(SAE[titre]["AC"])
 console.log(AC)
 AC.forEach(function(element) 
 {
-    
     document.querySelector(".acc").innerHTML += table
-    table = "<div>" + element +" "+ SAE[titre]["AC"][element] + "</div>"
+    table = "<a href='pdf/"+ titre +".pdf'><div>" + element +" "+ SAE[titre]["AC"][element] + "</div></a>"
 });
+
 
 
 
